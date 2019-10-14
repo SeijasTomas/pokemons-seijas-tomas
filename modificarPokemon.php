@@ -1,4 +1,4 @@
-<?php
+ <?php
 include 'baseDeDatos.php';
 $conn = conectarseABd();
 $resultadoTipo = traerTipoPokemon();
@@ -43,7 +43,7 @@ $resultadoTipo = traerTipoPokemon();
         <div class="w3-card">
             <form enctype="multipart/form-data" method="POST" action="modificarPokemon.php" class="w3-container">
                 <div class="w3-center">
-                    <h3 class="w3-center w3-text-blue">MODIFICAR POKEMON</h3>
+                    <h3 class="w3-center w3-text-blue" style="font-weight: bold">MODIFICAR POKEMON</h3>
                 </div>
                 <div class="w3-row">
                     <div class="w3-col m3"><p></p></div>
